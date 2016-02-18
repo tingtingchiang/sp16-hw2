@@ -1,0 +1,12 @@
+<% name = params[:name] %>
+<% age = params[:age] %>
+
+<% p = Person.new(name, age)%>
+
+<p>Introduce: </p>
+<%= p.introduce%>
+
+<p>Birth Year: </p>
+<%= p.birth_year %>
+<p>Nickname: </p>
+<%= p.nickname %>
